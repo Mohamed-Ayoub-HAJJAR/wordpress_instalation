@@ -1,35 +1,33 @@
-Script d'installation de WordPress
+**Script d'installation de WordPress**
 Ce script facilite l'installation de WordPress sur un serveur local utilisant Nginx et MySQL, tout en configurant automatiquement un projet WordPress. Il est spécialement conçu pour un environnement de développement local.
 
-Prérequis
+**Prérequis**
 Avant d'exécuter le script, assurez-vous que les éléments suivants sont installés sur votre machine :
 
-Nginx : Le serveur web qui hébergera votre application.
-MySQL : La base de données nécessaire pour WordPress.
-PHP : PHP avec PHP-FPM pour faire fonctionner WordPress.
-wget : Utilisé pour télécharger WordPress depuis son site officiel.
-sudo : Permet d'exécuter certaines commandes en tant qu'administrateur.
-Installation
+**Nginx** : Le serveur web qui hébergera votre application.
+**MySQL** : La base de données nécessaire pour WordPress.
+**PHP** : PHP avec PHP-FPM pour faire fonctionner WordPress.
+**wget** : Utilisé pour télécharger WordPress depuis son site officiel.
+**sudo** : Permet d'exécuter certaines commandes en tant qu'administrateur.
+
+**Installation**
+
 Cloner le dépôt : Pour récupérer le script, commencez par cloner le dépôt :
 
-bash
-Copier
-Modifier
 git clone https://github.com/votre-utilisateur/nom-du-depot.git
-cd nom-du-depot
+cd wordpress_instalation
+
 Rendre le script exécutable : Après avoir téléchargé ou cloné le script, assurez-vous qu'il soit exécutable :
 
-bash
-Copier
-Modifier
 chmod +x installer_wordpress.sh
+
 Exécuter le script : Une fois le script prêt, lancez-le pour configurer votre projet WordPress. Vous serez invité à entrer des informations de connexion à la base de données pendant l'exécution.
 
-bash
-Copier
-Modifier
+
 ./installer_wordpress.sh
-Étapes du script
+
+**Étapes du script**
+
 Nom du projet : Le script vous demandera de spécifier un nom pour votre projet WordPress.
 
 Informations de connexion MySQL : Vous devrez fournir votre nom d'utilisateur et votre mot de passe MySQL.
